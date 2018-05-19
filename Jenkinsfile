@@ -1,8 +1,5 @@
 pipeline {
-    agent {
-     docker {
-        image 'friendlyhello'
-    }
+    agent any
 }
 
     stages {
