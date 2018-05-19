@@ -1,5 +1,5 @@
 pipeline {
-    agent friendlyhello
+    agent docker
 
     stages {
         stage('Build') {
